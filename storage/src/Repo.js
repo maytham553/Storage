@@ -3,7 +3,7 @@ import Axios from "axios";
 
 export default class Repo {
     
-    url = 'http://127.0.0.1:8000/api/storage';
+    url = 'http://192.168.0.111:8000/api/storage';
 
      getItems = async() => {
 
